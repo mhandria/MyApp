@@ -1,0 +1,6 @@
+framework module Pods_ClipItTests {
+  umbrella header "Pods-ClipItTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

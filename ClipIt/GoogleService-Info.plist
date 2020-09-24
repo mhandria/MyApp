@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>394291223777-d56l0uvirqc19dm1ppso9q2u82nrmnga.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.394291223777-d56l0uvirqc19dm1ppso9q2u82nrmnga</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBDp8_OGIfX129sqGuzAHDdOU-JkOIVzgw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>394291223777</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.clipit.app.ClipIt</string>
+	<key>PROJECT_ID</key>
+	<string>clip-it-32099</string>
+	<key>STORAGE_BUCKET</key>
+	<string>clip-it-32099.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:394291223777:ios:ab0dbf49b18c409138aba0</string>
+	<key>DATABASE_URL</key>
+	<string>https://clip-it-32099.firebaseio.com</string>
+</dict>
+</plist>

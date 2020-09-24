@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DAFCA97464F0E77B9A3013B /* Pods_ClipIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19485FA0532F24D68DC20ECF /* Pods_ClipIt.framework */; };
+		6061DDF0184ECF5935B58E55 /* Pods_ClipItTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F1492E490B4E794E344F70 /* Pods_ClipItTests.framework */; };
+		7A5F2557251C24220026161B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F2556251C24220026161B /* AppDelegate.swift */; };
+		7A5F2559251C24220026161B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F2558251C24220026161B /* SceneDelegate.swift */; };
+		7A5F255B251C24220026161B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F255A251C24220026161B /* ContentView.swift */; };
+		7A5F255D251C24240026161B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5F255C251C24240026161B /* Assets.xcassets */; };
+		7A5F2560251C24240026161B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5F255F251C24240026161B /* Preview Assets.xcassets */; };
+		7A5F2563251C24240026161B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5F2561251C24240026161B /* LaunchScreen.storyboard */; };
+		7A5F256E251C24240026161B /* ClipItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F256D251C24240026161B /* ClipItTests.swift */; };
+		7A5F2579251C24240026161B /* ClipItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F2578251C24240026161B /* ClipItUITests.swift */; };
+		7A8DE90C251C3B880082425F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A8DE90B251C3B880082425F /* GoogleService-Info.plist */; };
+		A7A107CE2EE6CB26E65A9AC9 /* Pods_ClipIt_ClipItUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6E9FBA0FF02E155F35B399 /* Pods_ClipIt_ClipItUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A5F256A251C24240026161B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5F254B251C24220026161B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A5F2552251C24220026161B;
+			remoteInfo = ClipIt;
+		};
+		7A5F2575251C24240026161B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5F254B251C24220026161B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A5F2552251C24220026161B;
+			remoteInfo = ClipIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072F187B8397D361AB2FF85C /* Pods-ClipIt-ClipItUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipIt-ClipItUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClipIt-ClipItUITests/Pods-ClipIt-ClipItUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19485FA0532F24D68DC20ECF /* Pods_ClipIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClipIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38751C7F9B8FC3C224AA089A /* Pods-ClipIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipIt.debug.xcconfig"; path = "Target Support Files/Pods-ClipIt/Pods-ClipIt.debug.xcconfig"; sourceTree = "<group>"; };
+		52F1492E490B4E794E344F70 /* Pods_ClipItTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClipItTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		539344D155E146E9098AA8F0 /* Pods-ClipItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipItTests.debug.xcconfig"; path = "Target Support Files/Pods-ClipItTests/Pods-ClipItTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FD309DF8F52B7DA612AE535 /* Pods-ClipItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipItTests.release.xcconfig"; path = "Target Support Files/Pods-ClipItTests/Pods-ClipItTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A5F2553251C24220026161B /* ClipIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5F2556251C24220026161B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A5F2558251C24220026161B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A5F255A251C24220026161B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A5F255C251C24240026161B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A5F255F251C24240026161B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A5F2562251C24240026161B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A5F2564251C24240026161B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A5F2569251C24240026161B /* ClipItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5F256D251C24240026161B /* ClipItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipItTests.swift; sourceTree = "<group>"; };
+		7A5F256F251C24240026161B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A5F2574251C24240026161B /* ClipItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5F2578251C24240026161B /* ClipItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipItUITests.swift; sourceTree = "<group>"; };
+		7A5F257A251C24240026161B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8DE90B251C3B880082425F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D24D9D0F98759A21CB21F36E /* Pods-ClipIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipIt.release.xcconfig"; path = "Target Support Files/Pods-ClipIt/Pods-ClipIt.release.xcconfig"; sourceTree = "<group>"; };
+		DA6E9FBA0FF02E155F35B399 /* Pods_ClipIt_ClipItUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClipIt_ClipItUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03061E1F9361E1C2AD57013 /* Pods-ClipIt-ClipItUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipIt-ClipItUITests.release.xcconfig"; path = "Target Support Files/Pods-ClipIt-ClipItUITests/Pods-ClipIt-ClipItUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A5F2550251C24220026161B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAFCA97464F0E77B9A3013B /* Pods_ClipIt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5F2566251C24240026161B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6061DDF0184ECF5935B58E55 /* Pods_ClipItTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5F2571251C24240026161B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A107CE2EE6CB26E65A9AC9 /* Pods_ClipIt_ClipItUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB15B38816C34DF88106E31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38751C7F9B8FC3C224AA089A /* Pods-ClipIt.debug.xcconfig */,
+				D24D9D0F98759A21CB21F36E /* Pods-ClipIt.release.xcconfig */,
+				072F187B8397D361AB2FF85C /* Pods-ClipIt-ClipItUITests.debug.xcconfig */,
+				F03061E1F9361E1C2AD57013 /* Pods-ClipIt-ClipItUITests.release.xcconfig */,
+				539344D155E146E9098AA8F0 /* Pods-ClipItTests.debug.xcconfig */,
+				5FD309DF8F52B7DA612AE535 /* Pods-ClipItTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A0C2C299836D46E8AB47D59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19485FA0532F24D68DC20ECF /* Pods_ClipIt.framework */,
+				DA6E9FBA0FF02E155F35B399 /* Pods_ClipIt_ClipItUITests.framework */,
+				52F1492E490B4E794E344F70 /* Pods_ClipItTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A5F254A251C24220026161B = {
+			isa = PBXGroup;
+			children = (
+				7A5F2555251C24220026161B /* ClipIt */,
+				7A5F256C251C24240026161B /* ClipItTests */,
+				7A5F2577251C24240026161B /* ClipItUITests */,
+				7A5F2554251C24220026161B /* Products */,
+				3BB15B38816C34DF88106E31 /* Pods */,
+				4A0C2C299836D46E8AB47D59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A5F2554251C24220026161B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F2553251C24220026161B /* ClipIt.app */,
+				7A5F2569251C24240026161B /* ClipItTests.xctest */,
+				7A5F2574251C24240026161B /* ClipItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A5F2555251C24220026161B /* ClipIt */ = {
+			isa = PBXGroup;
+			children = (
+				7A8DE90B251C3B880082425F /* GoogleService-Info.plist */,
+				7A5F2556251C24220026161B /* AppDelegate.swift */,
+				7A5F2558251C24220026161B /* SceneDelegate.swift */,
+				7A5F255A251C24220026161B /* ContentView.swift */,
+				7A5F255C251C24240026161B /* Assets.xcassets */,
+				7A5F2561251C24240026161B /* LaunchScreen.storyboard */,
+				7A5F2564251C24240026161B /* Info.plist */,
+				7A5F255E251C24240026161B /* Preview Content */,
+			);
+			path = ClipIt;
+			sourceTree = "<group>";
+		};
+		7A5F255E251C24240026161B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F255F251C24240026161B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A5F256C251C24240026161B /* ClipItTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F256D251C24240026161B /* ClipItTests.swift */,
+				7A5F256F251C24240026161B /* Info.plist */,
+			);
+			path = ClipItTests;
+			sourceTree = "<group>";
+		};
+		7A5F2577251C24240026161B /* ClipItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F2578251C24240026161B /* ClipItUITests.swift */,
+				7A5F257A251C24240026161B /* Info.plist */,
+			);
+			path = ClipItUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A5F2552251C24220026161B /* ClipIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5F257D251C24240026161B /* Build configuration list for PBXNativeTarget "ClipIt" */;
+			buildPhases = (
+				329DBAA3F9720DEF573B2AB7 /* [CP] Check Pods Manifest.lock */,
+				7A5F254F251C24220026161B /* Sources */,
+				7A5F2550251C24220026161B /* Frameworks */,
+				7A5F2551251C24220026161B /* Resources */,
+				C0B04E21B361AAA9D6DFF95D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipIt;
+			productName = ClipIt;
+			productReference = 7A5F2553251C24220026161B /* ClipIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A5F2568251C24240026161B /* ClipItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5F2580251C24240026161B /* Build configuration list for PBXNativeTarget "ClipItTests" */;
+			buildPhases = (
+				B770D0EA4EC2000F609EA80C /* [CP] Check Pods Manifest.lock */,
+				7A5F2565251C24240026161B /* Sources */,
+				7A5F2566251C24240026161B /* Frameworks */,
+				7A5F2567251C24240026161B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A5F256B251C24240026161B /* PBXTargetDependency */,
+			);
+			name = ClipItTests;
+			productName = ClipItTests;
+			productReference = 7A5F2569251C24240026161B /* ClipItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A5F2573251C24240026161B /* ClipItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5F2583251C24240026161B /* Build configuration list for PBXNativeTarget "ClipItUITests" */;
+			buildPhases = (
+				A4F8C320A949F8BD5F39FB97 /* [CP] Check Pods Manifest.lock */,
+				7A5F2570251C24240026161B /* Sources */,
+				7A5F2571251C24240026161B /* Frameworks */,
+				7A5F2572251C24240026161B /* Resources */,
+				48E99BCAFC9899B3D43004C2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A5F2576251C24240026161B /* PBXTargetDependency */,
+			);
+			name = ClipItUITests;
+			productName = ClipItUITests;
+			productReference = 7A5F2574251C24240026161B /* ClipItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A5F254B251C24220026161B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Michael Handria";
+				TargetAttributes = {
+					7A5F2552251C24220026161B = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					7A5F2568251C24240026161B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 7A5F2552251C24220026161B;
+					};
+					7A5F2573251C24240026161B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 7A5F2552251C24220026161B;
+					};
+				};
+			};
+			buildConfigurationList = 7A5F254E251C24220026161B /* Build configuration list for PBXProject "ClipIt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A5F254A251C24220026161B;
+			productRefGroup = 7A5F2554251C24220026161B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A5F2552251C24220026161B /* ClipIt */,
+				7A5F2568251C24240026161B /* ClipItTests */,
+				7A5F2573251C24240026161B /* ClipItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A5F2551251C24220026161B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5F2563251C24240026161B /* LaunchScreen.storyboard in Resources */,
+				7A8DE90C251C3B880082425F /* GoogleService-Info.plist in Resources */,
+				7A5F2560251C24240026161B /* Preview Assets.xcassets in Resources */,
+				7A5F255D251C24240026161B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5F2567251C24240026161B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5F2572251C24240026161B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		329DBAA3F9720DEF573B2AB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClipIt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E99BCAFC9899B3D43004C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClipIt-ClipItUITests/Pods-ClipIt-ClipItUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClipIt-ClipItUITests/Pods-ClipIt-ClipItUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClipIt-ClipItUITests/Pods-ClipIt-ClipItUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F8C320A949F8BD5F39FB97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClipIt-ClipItUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B770D0EA4EC2000F609EA80C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClipItTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B04E21B361AAA9D6DFF95D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClipIt/Pods-ClipIt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClipIt/Pods-ClipIt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClipIt/Pods-ClipIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A5F254F251C24220026161B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5F2557251C24220026161B /* AppDelegate.swift in Sources */,
+				7A5F2559251C24220026161B /* SceneDelegate.swift in Sources */,
+				7A5F255B251C24220026161B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5F2565251C24240026161B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5F256E251C24240026161B /* ClipItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5F2570251C24240026161B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5F2579251C24240026161B /* ClipItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A5F256B251C24240026161B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A5F2552251C24220026161B /* ClipIt */;
+			targetProxy = 7A5F256A251C24240026161B /* PBXContainerItemProxy */;
+		};
+		7A5F2576251C24240026161B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A5F2552251C24220026161B /* ClipIt */;
+			targetProxy = 7A5F2575251C24240026161B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A5F2561251C24240026161B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A5F2562251C24240026161B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A5F257B251C24240026161B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A5F257C251C24240026161B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A5F257E251C24240026161B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38751C7F9B8FC3C224AA089A /* Pods-ClipIt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ClipIt/Preview Content\"";
+				DEVELOPMENT_TEAM = BTMH9CA9RK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ClipIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipit.app.ClipIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A5F257F251C24240026161B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24D9D0F98759A21CB21F36E /* Pods-ClipIt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ClipIt/Preview Content\"";
+				DEVELOPMENT_TEAM = BTMH9CA9RK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ClipIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipit.app.ClipIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A5F2581251C24240026161B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539344D155E146E9098AA8F0 /* Pods-ClipItTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BTMH9CA9RK;
+				INFOPLIST_FILE = ClipItTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipit.app.ClipItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipIt.app/ClipIt";
+			};
+			name = Debug;
+		};
+		7A5F2582251C24240026161B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD309DF8F52B7DA612AE535 /* Pods-ClipItTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BTMH9CA9RK;
+				INFOPLIST_FILE = ClipItTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipit.app.ClipItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipIt.app/ClipIt";
+			};
+			name = Release;
+		};
+		7A5F2584251C24240026161B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072F187B8397D361AB2FF85C /* Pods-ClipIt-ClipItUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BTMH9CA9RK;
+				INFOPLIST_FILE = ClipItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipit.app.ClipItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClipIt;
+			};
+			name = Debug;
+		};
+		7A5F2585251C24240026161B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03061E1F9361E1C2AD57013 /* Pods-ClipIt-ClipItUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BTMH9CA9RK;
+				INFOPLIST_FILE = ClipItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipit.app.ClipItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClipIt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A5F254E251C24220026161B /* Build configuration list for PBXProject "ClipIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5F257B251C24240026161B /* Debug */,
+				7A5F257C251C24240026161B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5F257D251C24240026161B /* Build configuration list for PBXNativeTarget "ClipIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5F257E251C24240026161B /* Debug */,
+				7A5F257F251C24240026161B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5F2580251C24240026161B /* Build configuration list for PBXNativeTarget "ClipItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5F2581251C24240026161B /* Debug */,
+				7A5F2582251C24240026161B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5F2583251C24240026161B /* Build configuration list for PBXNativeTarget "ClipItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5F2584251C24240026161B /* Debug */,
+				7A5F2585251C24240026161B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A5F254B251C24220026161B /* Project object */;
+}
